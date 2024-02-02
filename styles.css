@@ -25,9 +25,9 @@ li {
 .cart {
   display: flex;
   gap: 20px;
-  /* margin-left: 830px; */
 width:50vw;
 justify-content: end;
+
 }
 .logo_container,
 .user {
@@ -95,9 +95,9 @@ justify-content: end;
     justify-content: center;
     background-color: rgb(234, 244, 247);
     height:40px;
- width:150px;
-justify-content: center;
-align-items: center;
+    width:150px;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
     gap:30px
 }
@@ -135,4 +135,22 @@ align-items: center;
 .para {
     color:gray;
     font-size: small;
+}
+@media only screen and (max-width: 600px) {
+    .product_section {
+        display: flex;
+        flex-direction: column;
+    }
+    .main_container {
+        width:100vw;
+    }
+    
+.product_img_container {
+    padding-left:0;
+}
+.letter_container {
+    padding-top: 100px;
+    padding-left: 0;
+    width:400px;
+}
 }
